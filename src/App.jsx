@@ -1,5 +1,14 @@
+import Tabs from "./components/Tabs";
+import Container from "./ui/Container";
+
 function App() {
-  return <div>hello</div>;
+  return (
+    <main>
+      <Container height={"306px"}>
+        <Tabs />
+      </Container>
+    </main>
+  );
 }
 
 export default App;
