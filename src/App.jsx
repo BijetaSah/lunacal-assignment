@@ -23,7 +23,7 @@ function App() {
       >
         <div className="text-white">
           <p className="">Name:BijetaSah</p>
-          <p>Email:bijetasah@gmail.com</p>
+          <p>Email:bijetasah30@gmail.com</p>
         </div>
       </Container>
       <main className="flex flex-col gap-2 items-center">
