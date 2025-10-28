@@ -4,7 +4,6 @@ import Container from "./ui/Container";
 import { tabsData } from "./constants/tabsData";
 import Gallery from "./components/Gallery";
 import SeparatingLine from "./components/SeparatingLine";
-import EmptyBox from "./components/EmptyBox";
 
 function App() {
   const tabs = [
