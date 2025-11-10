@@ -19,7 +19,7 @@ function Gallery() {
   function scroll(direction) {
     if (!scrollRef.current) return;
     scrollRef.current.scrollBy({
-      left: direction === "right" ? 200 : -200,
+      left: direction === "right" ? 300 : -300,
       behavior: "smooth",
     });
   }
@@ -65,7 +65,7 @@ function Gallery() {
 
       {/* images */}
       <div className="overflow-x-scroll hide-scrollbar  mt-12 " ref={scrollRef}>
-        <div className="flex justify-center items-center gap-4">
+        <div className="flex  items-center gap-4">
           {images.map((imgSrc, i) => (
             <img
               src={imgSrc}
